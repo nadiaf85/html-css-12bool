@@ -9,18 +9,30 @@
     margin: 0 auto;
 } */
 
-/* [class*="col-"]{
-    flex: 0 0 auto;
-} */
+[class*="col-"]{
+    background-color:  #0099ff;
+    height: 40px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+}
 
 .row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color:  #0099ff;
 }
 
-.col-1{
-    text-align: center;
-    color: white;
+.container1{
+    margin-bottom: 16px;
 }
+
+.container1 .row .col-6 .row .col-2{
+    background-color: #00e600;
+}
+
+.container2 , .container3, .container4 {
+    margin-bottom: 10px;
+}
+
+
