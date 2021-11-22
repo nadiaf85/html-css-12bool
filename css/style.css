@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* .container{
+    max-width: 1170px;
+    margin: 0 auto;
+} */
+
+/* [class*="col-"]{
+    flex: 0 0 auto;
+} */
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:  #0099ff;
+}
+
+.col-1{
+    text-align: center;
+    color: white;
+}
