@@ -29,10 +29,47 @@
 
 .container1 .row .col-6 .row .col-2{
     background-color: #00e600;
+    border:5px solid #0099ff;
 }
 
-.container2 , .container3, .container4 {
+.container1 .row .col-6 .row .col-8{
+    background-color: #00e600;
+    border:5px solid #0099ff;
+}
+
+.container1 .row .col-6 .row .col-6{
+    background-color: #00e600;
+    border:5px solid #0099ff;
+}
+
+.container2 , .container3, .container4, .container5, .container6 {
     margin-bottom: 10px;
 }
 
+.container4{
+    height: 100%;
+}
+
+.container5 .center{
+    justify-content: center;
+}
+
+.container5 .end{
+    justify-content: flex-end;
+}
+
+/* .container5 .top{
+    justify-content: top;
+} */
+
+/* .container6 {
+    height: 50px;
+    background-color: #0099ff;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.container6 .row .col-offset1 .col-2{
+    background-color: #00e600;
+} */
 

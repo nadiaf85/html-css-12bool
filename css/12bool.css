@@ -1,9 +1,16 @@
 [class*="col-"]{
     flex: 0 0 auto;
+    
 }
 
+.row .center{
+    justify-content: center;
+    text-align: center;
+}
 
-
+.row .end{
+    justify-content: flex-end;
+}
 
 .col-1{
     flex-basis: calc((100% / 12) * 1);
@@ -65,14 +72,13 @@
 
 
 
-
 /* Offset */
 
 .col-offset-1{
     margin-left: calc((100% / 12) * 1);
 }
 
-/* .col-offset-2{
+.col-offset-2{
     margin-left: calc((100% / 12) * 2);
 }
 
@@ -114,4 +120,4 @@
 
 .col-offset-12{
     margin-left: calc((100% / 12) * 12);
-} */
+}
